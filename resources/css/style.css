@@ -4,13 +4,13 @@ body {
     text-align: center;
 
 }
+/* Section 1 */
 
 section .heading {
     display: block;   
 }
 
 .heading h1 {
-    font-family: Verdana;
     font-weight: normal;
     font-size: 3.125rem;
     color: white;
@@ -25,7 +25,64 @@ section .heading {
     font-size: 1rem;
 }
 
-/* Phone Image */
+/* Section 2 (the media) */
 #media {
-   
+   margin-top: 1rem;
 }
+
+/* Section 3 */
+.travel-guide {
+   display: block;
+   color: white; 
+}
+
+.travel-guide h1 {
+     font-weight: 300;
+     font-size: 2.625rem;
+     margin-top: 4rem;
+ }
+
+ .travel-guide p {
+    margin-top: 2rem;
+    font-size: 1.3125rem;
+    color: grey;
+ }
+
+ #camp {
+    margin-top: 2rem;
+ }
+
+ /* Section 4  */
+
+ #phone {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+ }
+
+ .phone-header h1 {
+    font-weight: normal;
+    font-size: 3.125rem;
+    color: white;
+ } 
+
+ .phone-header p {
+    margin-top: 2rem;
+ }
+
+ .phone-header a {
+    color: aquamarine;
+    font-size: 1rem;
+}
+
+footer h2 {
+    color: grey;
+    text-align: right;
+    margin-top: 2rem;
+    font-size: 2rem;
+}
+
+
+
+
+ 
+
